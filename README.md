@@ -1,5 +1,5 @@
-# Bot-PyGame-NEAT
-## Flappy Bird Bot NEAT - Proyecto de IA Evolutiva
+# Flappy Bird Evolutionary Bot 
+## Proyecto de IA Evolutiva con Algoritmo NEAT
 
 
 ---
