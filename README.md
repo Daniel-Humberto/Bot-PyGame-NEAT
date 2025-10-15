@@ -45,20 +45,80 @@ El sistema evoluciona redes neuronales que controlan pájaros virtuales, optimiz
 
 
 ### Lenguaje y Entorno
-    - **Python**: 3.12.3
-    - **Gestor de Paquetes**: virtualenv
+
+<div align="center">
+  <table style="width:84%; max-width:640px; margin:14px auto; background:#0b0f14; color:#e6eef8; border-radius:8px; overflow:hidden; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto; border-collapse:collapse;">
+    <thead>
+      <tr>
+        <th style="text-align:left; padding:10px 14px; font-weight:600; font-size:13px; border-bottom:1px solid rgba(230,238,248,0.06);">Elemento</th>
+        <th style="text-align:center; padding:10px 14px; font-weight:600; font-size:13px; border-bottom:1px solid rgba(230,238,248,0.06);">Detalle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:rgba(255,255,255,0.01);">
+        <td style="padding:10px 14px;">Python</td>
+        <td style="padding:10px 14px; text-align:center;">3.12.3 (recomendado)</td>
+      </tr>
+      <tr>
+        <td style="padding:10px 14px;">Entorno virtual</td>
+        <td style="padding:10px 14px; text-align:center;">virtualenv / venv</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.01);">
+        <td style="padding:10px 14px;">Configuración NEAT</td>
+        <td style="padding:10px 14px; text-align:center;">`config.txt` — ajustable</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 
 ### Bibliotecas Principales
 
-    | Biblioteca | Versión | Propósito |
-    |-----------|---------|-----------|
-    | **neat-python** | Latest | Motor principal del algoritmo NEAT |
-    | **pygame** | Latest | Renderizado gráfico y simulación del juego |
-    | **matplotlib** | Latest | Visualización de estadísticas y grafos |
-    | **numpy** | Latest | Operaciones matemáticas y cálculos |
-    | **pillow** | Latest | Procesamiento de imágenes |
-    | **graphviz** | Latest | Generación de diagramas de redes neuronales |
+
+<div align="center">
+  <table role="table" style="width:90%; max-width:860px; margin:18px auto; border-collapse:separate; border-spacing:0; background:#0b0f14; color:#e6eef8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial; border-radius:10px; overflow:hidden;">
+    <thead>
+      <tr>
+        <th style="text-align:left; padding:12px 16px; font-weight:600; font-size:14px; border-bottom:1px solid rgba(230,238,248,0.06);">Biblioteca</th>
+        <th style="text-align:center; padding:12px 16px; font-weight:600; font-size:14px; border-bottom:1px solid rgba(230,238,248,0.06);">Versión</th>
+        <th style="text-align:left; padding:12px 16px; font-weight:600; font-size:14px; border-bottom:1px solid rgba(230,238,248,0.06);">Propósito</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:rgba(255,255,255,0.01);">
+        <td style="padding:12px 16px;">neat-python</td>
+        <td style="padding:12px 16px; text-align:center;">Última / especificar</td>
+        <td style="padding:12px 16px;">Motor NEAT — neuroevolución y gestión de genomas.</td>
+      </tr>
+      <tr>
+        <td style="padding:12px 16px;">pygame</td>
+        <td style="padding:12px 16px; text-align:center;">Última / especificar</td>
+        <td style="padding:12px 16px;">Renderizado & simulación en tiempo real.</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.01);">
+        <td style="padding:12px 16px;">matplotlib</td>
+        <td style="padding:12px 16px; text-align:center;">Última / especificar</td>
+        <td style="padding:12px 16px;">Visualización de métricas y gráficos.</td>
+      </tr>
+      <tr>
+        <td style="padding:12px 16px;">numpy</td>
+        <td style="padding:12px 16px; text-align:center;">Última / especificar</td>
+        <td style="padding:12px 16px;">Operaciones numéricas y vectores.</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.01);">
+        <td style="padding:12px 16px;">pillow</td>
+        <td style="padding:12px 16px; text-align:center;">Última / especificar</td>
+        <td style="padding:12px 16px;">Procesamiento de imágenes.</td>
+      </tr>
+      <tr>
+        <td style="padding:12px 16px;">graphviz</td>
+        <td style="padding:12px 16px; text-align:center;">Última / especificar</td>
+        <td style="padding:12px 16px;">Exportar topologías en SVG.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 
 ---
@@ -309,14 +369,48 @@ La red recibe típicamente:
 
 ## 📈 Resultados
 
+
 ### Métricas de Rendimiento
 
-| Versión | Gen. Promedio | Fitness Máximo | Tiempo/Gen |
-|---------|---------------|----------------|------------|
-| V1.1    | ~50-80        | ~500          | ~15s       |
-| V1.5    | ~30-50        | ~800          | ~10s       |
-| V2.1    | ~25-40        | ~1200         | ~8s        |
-| V2.5    | ~15-30        | ~2000+        | ~6s        |
+
+<div align="center">
+  <table style="width:90%; max-width:820px; margin:18px auto; background:#0b0f14; color:#e6eef8; border-radius:10px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto; border-collapse:collapse;">
+    <thead>
+      <tr>
+        <th style="text-align:left; padding:12px 16px; font-weight:600; border-bottom:1px solid rgba(230,238,248,0.06);">Versión</th>
+        <th style="text-align:center; padding:12px 16px; font-weight:600; border-bottom:1px solid rgba(230,238,248,0.06);">Gen. Promedio</th>
+        <th style="text-align:center; padding:12px 16px; font-weight:600; border-bottom:1px solid rgba(230,238,248,0.06);">Fitness Máx.</th>
+        <th style="text-align:center; padding:12px 16px; font-weight:600; border-bottom:1px solid rgba(230,238,248,0.06);">Tiempo / Gen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:rgba(255,255,255,0.01);">
+        <td style="padding:12px 16px;">V1.1</td>
+        <td style="padding:12px 16px; text-align:center;">~50–80</td>
+        <td style="padding:12px 16px; text-align:center;">~500</td>
+        <td style="padding:12px 16px; text-align:center;">~15s</td>
+      </tr>
+      <tr>
+        <td style="padding:12px 16px;">V1.5</td>
+        <td style="padding:12px 16px; text-align:center;">~30–50</td>
+        <td style="padding:12px 16px; text-align:center;">~800</td>
+        <td style="padding:12px 16px; text-align:center;">~10s</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.01);">
+        <td style="padding:12px 16px;">V2.1</td>
+        <td style="padding:12px 16px; text-align:center;">~25–40</td>
+        <td style="padding:12px 16px; text-align:center;">~1200</td>
+        <td style="padding:12px 16px; text-align:center;">~8s</td>
+      </tr>
+      <tr>
+        <td style="padding:12px 16px;">V2.5 (estable)</td>
+        <td style="padding:12px 16px; text-align:center;">~15–30</td>
+        <td style="padding:12px 16px; text-align:center;">2000+</td>
+        <td style="padding:12px 16px; text-align:center;">~6s</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 
 ### Mejoras Clave
