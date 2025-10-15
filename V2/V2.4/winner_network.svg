@@ -1,0 +1,7 @@
+digraph {
+	0 [label=0 fillcolor=lightgray shape=box style=filled]
+	-1 -> 0 [color=green penwidth=0.19468326935017446]
+	-2 -> 0 [color=green penwidth=0.22275334615708967]
+	-3 -> 0 [color=red penwidth=0.5068079341264566]
+	-4 -> 0 [color=green penwidth=0.11966555154339932]
+}
