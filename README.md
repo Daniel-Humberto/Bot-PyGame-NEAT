@@ -33,6 +33,13 @@
 </p>
 
 
+<p align="center">
+  <img src="Imagenes/5.png" 
+       style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);">
+  <i>V2.5</i>
+</p>
+
+
 ---
 
 
