@@ -322,8 +322,8 @@ Los parámetros finales en `config.txt` incluyen:
 
 ```
 NEAT/
-├── V1-V9/          # Versiones iterativas del proyecto
-├── V10/            # Versión final
+├── V1-V9/    # Versiones iterativas del proyecto
+├── V10/          # Versión final
 │   ├── main.py           # Sistema principal
 │   ├── game.py           # Motor del juego
 │   ├── visualize.py      # Herramientas de visualización
