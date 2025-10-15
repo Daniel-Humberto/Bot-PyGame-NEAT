@@ -2,6 +2,16 @@
 ## Proyecto de IA Evolutiva con Algoritmo NEAT
 
 
+## 🎯 Descripción General
+
+Este proyecto implementa un sistema de **Machine Learning** basado en **algoritmos genéticos** para entrenar agentes capaces de jugar Flappy Bird de manera autónoma. Utiliza **NEAT (NeuroEvolution of Augmenting Topologies)**, una técnica de neuroevolución que desarrolla redes neuronales a través de principios evolutivos.
+
+El sistema evoluciona redes neuronales que controlan pájaros virtuales, optimizando su comportamiento generación tras generación para maximizar la distancia recorrida y evitar obstáculos.
+
+
+---
+
+
 <p align="center">
   <img src="Imagenes/1.png" 
        style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);">
@@ -38,16 +48,6 @@
        style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);">
   <i>V2.5</i>
 </p>
-
-
----
-
-
-## 🎯 Descripción General
-
-Este proyecto implementa un sistema de **Machine Learning** basado en **algoritmos genéticos** para entrenar agentes capaces de jugar Flappy Bird de manera autónoma. Utiliza **NEAT (NeuroEvolution of Augmenting Topologies)**, una técnica de neuroevolución que desarrolla redes neuronales a través de principios evolutivos.
-
-El sistema evoluciona redes neuronales que controlan pájaros virtuales, optimizando su comportamiento generación tras generación para maximizar la distancia recorrida y evitar obstáculos.
 
 
 ---
