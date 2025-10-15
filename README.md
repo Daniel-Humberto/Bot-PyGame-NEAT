@@ -3,14 +3,33 @@
 
 
 <p align="center">
-  <img src="Imagenes/1.png" alt="Visual de Matemáticas en IA, Data y Ops"
+  <img src="Imagenes/1.png" 
        style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);">
+    <i>V1.5</i>
 </p>
 
 
 <p align="center">
-  <img src="Imagenes/2.png" alt="Visual de Matemáticas en IA, Data y Ops"
+  <img src="Imagenes/2.png"
        style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);">
+  <i>V1.5</i>
+</p>
+
+
+---
+
+
+<p align="center">
+  <img src="Imagenes/3.png" 
+       style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);">
+  <i>V2.5</i>
+</p>
+
+
+<p align="center">
+  <img src="Imagenes/4.png" 
+       style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);">
+  <i>V2.5</i>
 </p>
 
 
